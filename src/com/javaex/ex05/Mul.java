@@ -9,14 +9,9 @@ public class Mul {
     	this.a = a;
     	this.b = b;
     }
-    public void Mul() {
-    	System.out.println(a*b);
-    }
 
-    
-    public int calculate(int Mul) {
-    	System.out.println(a*b);
-		return Mul;
+    public int calculate() {
+  		return a*b;
     }
 
 }

@@ -9,14 +9,10 @@ public class Div {
     	this.a = a;
     	this.b = b;
     }
-    public void Div() {
-    	System.out.println(a/b);
-    }
 
    
-    public int calculate(int Div) {
-    	System.out.println(a/b);
-		return Div;
+    public int calculate() {
+		return a/b;
     }
 
 }

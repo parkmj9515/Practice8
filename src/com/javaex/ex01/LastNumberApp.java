@@ -22,13 +22,14 @@ public class LastNumberApp {
 		int result;
 		
 		//아래부분을 try~catch문을 사용하여 수정하세요
-//		result = intArray[3];
-//		System.out.println(result);
 		try {
-			System.out.println(intArray[3]);
-		} catch(ArrayIndexOutOfBoundsException e) {
-			System.err.println("배열의 범위를 벗어났습니다");
-		}			
+		result = intArray[3];
+		System.out.println(result);
+		} catch(ArrayIndexOutOfBoundsException e) {	//	구체적 예외처리는 앞쪽
+			System.err.println("배열의 범위를 넘었습니다");
+		}	catch(Exception e) {
+			e.printStackTrace();	// 일반적인 예외는 뒤쪽
+		}
 	}
 	
 

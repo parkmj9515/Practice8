@@ -10,12 +10,8 @@ public class Add {
     	this.b = b;
     }
    
-    public void add() {
-    	System.out.println(a+b);
-    }
     public int calculate() {
-    	System.out.println(a+b);
-    	return a;
+    	return a+b;
 		
     }
    
